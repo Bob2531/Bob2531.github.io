@@ -1,0 +1,58 @@
+
+
+.pure-group {
+    color: var(--dl-color-gray-black);
+    gap: var(--dl-space-space-halfunit);
+    width: var(--dl-size-size-xlarge);
+    height: 60px;
+    margin-left: var(--dl-space-space-halfunit);
+    border-width: 0.0px;
+    margin-right: var(--dl-space-space-halfunit);
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-white);
+    font-size: large;
+}
+
+.home-button {
+    gap: var(--dl-space-space-twounits);
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-small);
+    margin-top: var(--dl-space-space-twounits);
+    z-index: 100;
+    text-align: center;
+    right: 5%;
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+    background-color: var(--dl-color-pallet-yellow);
+  }
+
+
+input[type=text], select {
+    padding: 5px;
+    width: 200px;
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: medium;
+}
+
+textarea{
+    padding: 10px;
+    width: 325px;
+    height: 100px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: medium;
+}
