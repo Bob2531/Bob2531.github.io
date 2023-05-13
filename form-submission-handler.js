@@ -1,4 +1,3 @@
-jQuery('.home-mobile-menu .home-nav a').click(function() { jQuery('.navbar-toggle').click(); })
 
 (function() {
   // get all data in form and return object
