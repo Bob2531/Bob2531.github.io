@@ -62,11 +62,6 @@
       return false;
     }
     // Check if the message category is filled
-    if (!data.messageCategory) {
-      alert("Please fill in the message category.");
-      enableAllButtons(form);
-      return false;
-    }
 
     disableAllButtons(form);
     var url = form.action;
